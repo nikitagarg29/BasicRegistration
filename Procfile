@@ -1,1 +1,1 @@
-web: gunicorn BasicRegistration.wsgi -log-file -
+web: gunicorn BasicRegistration.wsgi --log-file -
