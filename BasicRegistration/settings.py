@@ -152,8 +152,9 @@ SOCIALACCOUNT_PROVIDERS = {
 }
 
 SITE_ID = 1
-LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
+
+LOGIN_REDIRECT_URL = 'https://basicregistration.herokuapp.com/'
+LOGOUT_REDIRECT_URL = 'https://basicregistration.herokuapp.com/'
 
 #db_from_env = dj_database_url.config(conn_max_age=500)
 #DATABASES['default'].update(db_from_env)
