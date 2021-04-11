@@ -153,6 +153,7 @@ SOCIALACCOUNT_PROVIDERS = {
 
 SITE_ID = 1
 
+LOGIN_URL = 'https://basicregistration.herokuapp.com/accounts/google/login/'
 LOGIN_REDIRECT_URL = 'https://basicregistration.herokuapp.com/'
 LOGOUT_REDIRECT_URL = 'https://basicregistration.herokuapp.com/'
 
